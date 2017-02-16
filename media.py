@@ -1,3 +1,4 @@
+# Create Movie class
 class Movie():
 
     def __init__(self, movie_title, poster_image, trailer_youtube):

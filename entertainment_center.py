@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+# Create movie objects
 the_dark_knight = media.Movie("The Dark Knight",
                               "https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/Dark_Knight.jpg/220px-Dark_Knight.jpg",  # NOQA
                               "https://youtu.be/5y2szViJlaY")
@@ -25,6 +26,8 @@ the_two_towers = media.Movie("Lord of the Rings: The Two Towers",
                              "https://upload.wikimedia.org/wikipedia/en/thumb/a/ad/Lord_of_the_Rings_-_The_Two_Towers.jpg/220px-Lord_of_the_Rings_-_The_Two_Towers.jpg",  # NOQA
                              "https://youtu.be/cvCktPUwkW0")
 
+# Add movies to the movies array
 movies = [the_peanuts_movie, the_dark_knight, rudy,
           the_two_towers, remember_the_titans, finding_nemo]
+# Pass the movies array to the open_movies_page method of fresh_tomatoes
 fresh_tomatoes.open_movies_page(movies)
