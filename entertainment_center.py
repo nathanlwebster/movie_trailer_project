@@ -29,5 +29,5 @@ the_two_towers = media.Movie("Lord of the Rings: The Two Towers",
 # Add movies to the movies array
 movies = [the_peanuts_movie, the_dark_knight, rudy,
           the_two_towers, remember_the_titans, finding_nemo]
-# Pass the movies array to the open_movies_page method of fresh_tomatoes
+# Pass the movies array to the open_movies_page method of fresh_tomatoes.py
 fresh_tomatoes.open_movies_page(movies)
