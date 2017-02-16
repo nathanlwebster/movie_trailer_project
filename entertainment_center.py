@@ -26,5 +26,5 @@ the_two_towers = media.Movie("Lord of the Rings: The Two Towers",
                              "https://youtu.be/cvCktPUwkW0")
 
 movies = [the_peanuts_movie, the_dark_knight, rudy,
-          remember_the_titans, finding_nemo, the_two_towers]
+          the_two_towers, remember_the_titans, finding_nemo]
 fresh_tomatoes.open_movies_page(movies)
